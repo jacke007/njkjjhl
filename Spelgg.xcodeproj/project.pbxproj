@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E125BB351E4489CC00908C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125BB341E4489CC00908C64 /* AppDelegate.swift */; };
+		E125BB371E4489CC00908C64 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E125BB361E4489CC00908C64 /* GameScene.sks */; };
+		E125BB391E4489CC00908C64 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E125BB381E4489CC00908C64 /* Actions.sks */; };
+		E125BB3B1E4489CC00908C64 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125BB3A1E4489CC00908C64 /* GameScene.swift */; };
+		E125BB3D1E4489CC00908C64 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125BB3C1E4489CC00908C64 /* GameViewController.swift */; };
+		E125BB401E4489CC00908C64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E125BB3E1E4489CC00908C64 /* Main.storyboard */; };
+		E125BB421E4489CC00908C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E125BB411E4489CC00908C64 /* Assets.xcassets */; };
+		E125BB451E4489CC00908C64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E125BB431E4489CC00908C64 /* LaunchScreen.storyboard */; };
+		E125BB501E4489CC00908C64 /* SpelggTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125BB4F1E4489CC00908C64 /* SpelggTests.swift */; };
+		E125BB5B1E4489CC00908C64 /* SpelggUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E125BB5A1E4489CC00908C64 /* SpelggUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E125BB4C1E4489CC00908C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E125BB291E4489CC00908C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E125BB301E4489CC00908C64;
+			remoteInfo = Spelgg;
+		};
+		E125BB571E4489CC00908C64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E125BB291E4489CC00908C64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E125BB301E4489CC00908C64;
+			remoteInfo = Spelgg;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E125BB311E4489CC00908C64 /* Spelgg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spelgg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E125BB341E4489CC00908C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E125BB361E4489CC00908C64 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E125BB381E4489CC00908C64 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E125BB3A1E4489CC00908C64 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E125BB3C1E4489CC00908C64 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E125BB3F1E4489CC00908C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E125BB411E4489CC00908C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E125BB441E4489CC00908C64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E125BB461E4489CC00908C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E125BB4B1E4489CC00908C64 /* SpelggTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpelggTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E125BB4F1E4489CC00908C64 /* SpelggTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpelggTests.swift; sourceTree = "<group>"; };
+		E125BB511E4489CC00908C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E125BB561E4489CC00908C64 /* SpelggUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpelggUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E125BB5A1E4489CC00908C64 /* SpelggUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpelggUITests.swift; sourceTree = "<group>"; };
+		E125BB5C1E4489CC00908C64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E125BB2E1E4489CC00908C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E125BB481E4489CC00908C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E125BB531E4489CC00908C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E125BB281E4489CC00908C64 = {
+			isa = PBXGroup;
+			children = (
+				E125BB331E4489CC00908C64 /* Spelgg */,
+				E125BB4E1E4489CC00908C64 /* SpelggTests */,
+				E125BB591E4489CC00908C64 /* SpelggUITests */,
+				E125BB321E4489CC00908C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E125BB321E4489CC00908C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E125BB311E4489CC00908C64 /* Spelgg.app */,
+				E125BB4B1E4489CC00908C64 /* SpelggTests.xctest */,
+				E125BB561E4489CC00908C64 /* SpelggUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E125BB331E4489CC00908C64 /* Spelgg */ = {
+			isa = PBXGroup;
+			children = (
+				E125BB341E4489CC00908C64 /* AppDelegate.swift */,
+				E125BB361E4489CC00908C64 /* GameScene.sks */,
+				E125BB381E4489CC00908C64 /* Actions.sks */,
+				E125BB3A1E4489CC00908C64 /* GameScene.swift */,
+				E125BB3C1E4489CC00908C64 /* GameViewController.swift */,
+				E125BB3E1E4489CC00908C64 /* Main.storyboard */,
+				E125BB411E4489CC00908C64 /* Assets.xcassets */,
+				E125BB431E4489CC00908C64 /* LaunchScreen.storyboard */,
+				E125BB461E4489CC00908C64 /* Info.plist */,
+			);
+			path = Spelgg;
+			sourceTree = "<group>";
+		};
+		E125BB4E1E4489CC00908C64 /* SpelggTests */ = {
+			isa = PBXGroup;
+			children = (
+				E125BB4F1E4489CC00908C64 /* SpelggTests.swift */,
+				E125BB511E4489CC00908C64 /* Info.plist */,
+			);
+			path = SpelggTests;
+			sourceTree = "<group>";
+		};
+		E125BB591E4489CC00908C64 /* SpelggUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E125BB5A1E4489CC00908C64 /* SpelggUITests.swift */,
+				E125BB5C1E4489CC00908C64 /* Info.plist */,
+			);
+			path = SpelggUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E125BB301E4489CC00908C64 /* Spelgg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E125BB5F1E4489CC00908C64 /* Build configuration list for PBXNativeTarget "Spelgg" */;
+			buildPhases = (
+				E125BB2D1E4489CC00908C64 /* Sources */,
+				E125BB2E1E4489CC00908C64 /* Frameworks */,
+				E125BB2F1E4489CC00908C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spelgg;
+			productName = Spelgg;
+			productReference = E125BB311E4489CC00908C64 /* Spelgg.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E125BB4A1E4489CC00908C64 /* SpelggTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E125BB621E4489CC00908C64 /* Build configuration list for PBXNativeTarget "SpelggTests" */;
+			buildPhases = (
+				E125BB471E4489CC00908C64 /* Sources */,
+				E125BB481E4489CC00908C64 /* Frameworks */,
+				E125BB491E4489CC00908C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E125BB4D1E4489CC00908C64 /* PBXTargetDependency */,
+			);
+			name = SpelggTests;
+			productName = SpelggTests;
+			productReference = E125BB4B1E4489CC00908C64 /* SpelggTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E125BB551E4489CC00908C64 /* SpelggUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E125BB651E4489CC00908C64 /* Build configuration list for PBXNativeTarget "SpelggUITests" */;
+			buildPhases = (
+				E125BB521E4489CC00908C64 /* Sources */,
+				E125BB531E4489CC00908C64 /* Frameworks */,
+				E125BB541E4489CC00908C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E125BB581E4489CC00908C64 /* PBXTargetDependency */,
+			);
+			name = SpelggUITests;
+			productName = SpelggUITests;
+			productReference = E125BB561E4489CC00908C64 /* SpelggUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E125BB291E4489CC00908C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jakob Strömbäck";
+				TargetAttributes = {
+					E125BB301E4489CC00908C64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E125BB4A1E4489CC00908C64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E125BB301E4489CC00908C64;
+					};
+					E125BB551E4489CC00908C64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E125BB301E4489CC00908C64;
+					};
+				};
+			};
+			buildConfigurationList = E125BB2C1E4489CC00908C64 /* Build configuration list for PBXProject "Spelgg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E125BB281E4489CC00908C64;
+			productRefGroup = E125BB321E4489CC00908C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E125BB301E4489CC00908C64 /* Spelgg */,
+				E125BB4A1E4489CC00908C64 /* SpelggTests */,
+				E125BB551E4489CC00908C64 /* SpelggUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E125BB2F1E4489CC00908C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E125BB401E4489CC00908C64 /* Main.storyboard in Resources */,
+				E125BB371E4489CC00908C64 /* GameScene.sks in Resources */,
+				E125BB421E4489CC00908C64 /* Assets.xcassets in Resources */,
+				E125BB451E4489CC00908C64 /* LaunchScreen.storyboard in Resources */,
+				E125BB391E4489CC00908C64 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E125BB491E4489CC00908C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E125BB541E4489CC00908C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E125BB2D1E4489CC00908C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E125BB3B1E4489CC00908C64 /* GameScene.swift in Sources */,
+				E125BB3D1E4489CC00908C64 /* GameViewController.swift in Sources */,
+				E125BB351E4489CC00908C64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E125BB471E4489CC00908C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E125BB501E4489CC00908C64 /* SpelggTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E125BB521E4489CC00908C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E125BB5B1E4489CC00908C64 /* SpelggUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E125BB4D1E4489CC00908C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E125BB301E4489CC00908C64 /* Spelgg */;
+			targetProxy = E125BB4C1E4489CC00908C64 /* PBXContainerItemProxy */;
+		};
+		E125BB581E4489CC00908C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E125BB301E4489CC00908C64 /* Spelgg */;
+			targetProxy = E125BB571E4489CC00908C64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E125BB3E1E4489CC00908C64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E125BB3F1E4489CC00908C64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E125BB431E4489CC00908C64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E125BB441E4489CC00908C64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E125BB5D1E4489CC00908C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E125BB5E1E4489CC00908C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E125BB601E4489CC00908C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spelgg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.halsingegymnasiet.Spelgg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E125BB611E4489CC00908C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Spelgg/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.halsingegymnasiet.Spelgg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E125BB631E4489CC00908C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpelggTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.halsingegymnasiet.SpelggTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spelgg.app/Spelgg";
+			};
+			name = Debug;
+		};
+		E125BB641E4489CC00908C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SpelggTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.halsingegymnasiet.SpelggTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Spelgg.app/Spelgg";
+			};
+			name = Release;
+		};
+		E125BB661E4489CC00908C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpelggUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.halsingegymnasiet.SpelggUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spelgg;
+			};
+			name = Debug;
+		};
+		E125BB671E4489CC00908C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SpelggUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.halsingegymnasiet.SpelggUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Spelgg;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E125BB2C1E4489CC00908C64 /* Build configuration list for PBXProject "Spelgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E125BB5D1E4489CC00908C64 /* Debug */,
+				E125BB5E1E4489CC00908C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E125BB5F1E4489CC00908C64 /* Build configuration list for PBXNativeTarget "Spelgg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E125BB601E4489CC00908C64 /* Debug */,
+				E125BB611E4489CC00908C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E125BB621E4489CC00908C64 /* Build configuration list for PBXNativeTarget "SpelggTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E125BB631E4489CC00908C64 /* Debug */,
+				E125BB641E4489CC00908C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E125BB651E4489CC00908C64 /* Build configuration list for PBXNativeTarget "SpelggUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E125BB661E4489CC00908C64 /* Debug */,
+				E125BB671E4489CC00908C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E125BB291E4489CC00908C64 /* Project object */;
+}
